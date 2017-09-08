@@ -1,0 +1,33 @@
+{
+  "name": "ready-app",
+  "version": "0.1.0",
+  "description": "A CLI for scaffolding a web app.",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "simple-git": "^1.77.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgreen/ready-app.git"
+  },
+  "keywords": [
+    "web-app",
+    "webpack",
+    "react",
+    "elm",
+    "vue",
+    "node",
+    "cli"
+  ],
+  "author": "Zach Green",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zgreen/ready-app/issues"
+  },
+  "homepage": "https://github.com/zgreen/ready-app#readme"
+}
