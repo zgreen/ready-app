@@ -107,4 +107,4 @@ function clone(branch = "") {
   );
 }
 
-clone(args._[0]);
+modules.exports = clone.bind(null, args._[0])
