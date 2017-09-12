@@ -1,8 +1,9 @@
 {
   "name": "ready-app",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A CLI for scaffolding a web app.",
-  "main": "index.js",
+  "bin": "./bin/ready-app.js",
+  "main": "./bin/ready-app.js",
   "dependencies": {
     "minimist": "^1.2.0",
     "simple-git": "^1.77.0"

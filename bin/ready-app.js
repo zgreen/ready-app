@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
 const { exec } = require("child_process");
 const git = require("simple-git")(process.cwd());
@@ -107,4 +109,4 @@ function clone(branch = "") {
   );
 }
 
-modules.exports = clone.bind(null, args._[0])
+clone(args._[0])
