@@ -6,7 +6,7 @@
   "main": "./bin/ready-app.js",
   "dependencies": {
     "minimist": "^1.2.0",
-    "simple-git": "^1.77.0"
+    "simple-git": "^1.89.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,15 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/zgreen/ready-app.git"
   },
-  "keywords": [
-    "web-app",
-    "webpack",
-    "react",
-    "elm",
-    "vue",
-    "node",
-    "cli"
-  ],
+  "keywords": ["web-app", "webpack", "react", "elm", "vue", "node", "cli"],
   "author": "Zach Green",
   "license": "GPL-3.0",
   "bugs": {
